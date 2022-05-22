@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #0b1726 ,#1f3f66);
+    margin:0 auto;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#161616;
+    border-radius: 5px;
+    margin-top:10px;
+}
+.principal{
+    display: flex;
+}
+.logo{
+    background-color: black;
+    padding:10px;
+    width: 45%;
+}
+.navegacao{
+    overflow:hidden;
+}
+.navegacao a{
+    float:right;
+    display: block;
+    color:gray;
+    text-decoration: none;
+    text-align:right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color: red;
+    background-color: black;
+}
+.conteudo{
+    float:left;
+    margin:15px 2px 25px 2px;
+    background-color: gainsboro;
+    text-align:justify ;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+.rodape{
+    color:gray;
+    font-size: 15px;
+    text-align:center;
+    padding: 20px ;
+}
+@media screen and(max-width:600px) {
+    .principal, .conteudo{
+        width: 100%;
+        padding: 0;
+    }
+    
+}
